@@ -1,0 +1,92 @@
+.nav-link:hover {
+    border-bottom: 2px solid rgb(46, 46, 46);
+}
+
+header{
+    background:  url(bbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    
+}
+.content{
+    color:whitesmoke;
+    text-align: left;
+    
+}
+.abc{
+   
+    float: right;
+    margin-top: -200px;
+    
+}
+   button {
+       display: inline;
+       width: 150px;
+       background-color: red;
+       text-transform: uppercase;
+       font-weight: bold;
+       border: none;
+       margin: 10px 40px;
+   }
+   #d1 {
+       padding: 50px;
+       text-align: center;
+    
+   }
+    #d1>div>{
+          outline:5px solid blue;
+          border: 5px inset black;
+
+
+    }
+   #d1>div {
+       display: inline-block;
+       vertical-align: middle;
+       width: 300px;
+       text-align: left;
+       margin-right: 20px;
+   }
+   #my-cards {
+       margin-top: -60px;
+   }
+   #d1>img {
+       height: 400px;
+       display: inline-block;
+       vertical-align: middle;
+       margin-left: 40px;
+       
+   }
+   #d2{
+    background:url(banner2.jpg);
+    padding:50px;
+    text-align: middle;
+    color:white;
+   }
+   #d2>div{
+    display:inline-block;
+    vertical-align: middle;
+    width:300px;
+    margin:80px;
+    
+   }
+  #d4{
+      background: url(bbanner.jpg);
+      padding: 50px;
+      text-align: middle;
+      color: white;
+  }
+  #d4>div{
+      display: inline-block;
+      vertical-align: middle;
+      width: 300px;
+      margin: 100px;
+  }
+  #top-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+  }
